@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+</head>
+<script src="jquery-2.1.4.min.js">
+</script>
+<script>
+$(document).ready(function()
+{
+	$("#buton1").click(function()
+	{
+		$("#ust").slideToggle();
+	});
+	$("#buton2").click(function()
+	{
+		$("#alt").slideToggle();
+	});
+		$("#buton3").click(function()
+	{
+		$("#sol").slideToggle();
+	});	
+		$("#buton4").click(function()
+	{
+		$("#sag").slideToggle();
+	});			
+});
+</script>
+<style>
+#ust
+{
+	float:left;
+	width:100%;
+	height:100px;
+	border: 1px #006 solid;
+}
+#sag
+{
+	float:left;
+	width:16%;
+	min-height:70%;
+	height:500px;
+	border: 1px #006 solid;
+}
+#sol
+{
+	float:left;
+	width:16%;
+	min-height:70%;
+	height:500px;
+	border: 1px #006 solid;
+}
+#orta
+{
+	float:left;
+	width:67.5%;
+	min-width:67.5%;
+	min-height:70%;
+	height:500px;
+	border: 1px #006 solid;
+}
+#alt
+{
+	width:100%;
+	min-height:80px;
+	height:80px;
+	border: 1px #006 solid;
+	clear:left;
+}
+#buton1
+{
+	margin-top:-12px;
+	margin-left:48%;
+	height:20px;
+	width:60px;
+	border:1px solid #63F;
+	border-radius:8px;
+	background:#3FF;
+}
+#buton2
+{
+	margin-left:48%;
+	margin-top:480px;
+	height:20px;
+	width:60px;
+	border:1px solid #63F;
+	border-radius:8px;
+	background:#3FF;
+}
+#buton3
+{
+	margin-top:-260px;
+	margin-left:-12px;
+	height:60px;
+	width:20px;
+	border:1px solid #63F;
+	border-radius:8px;
+	background:#3FF;
+}
+#buton4
+{
+	margin-left:99%;
+	margin-top:-60px;
+	height:60px;
+	width:20px;
+	border:1px solid #63F;
+	border-radius:8px;
+	background:#3FF;
+}
+#buton1:hover
+{
+	background-color:#006;
+	opacity:0.5;
+}
+#buton2:hover
+{
+	background-color:#006;
+	opacity:0.5;
+}
+#buton3:hover
+{
+	background-color:#006;
+	opacity:0.5;
+}
+#buton4:hover
+{
+	background-color:#006;
+	opacity:0.5;
+}
+</style>
+<body>
+<div id="ust">
+</div>
+<div id="sol">
+</div>
+<div id="orta">
+<div id="buton1"></div>
+<div id="buton2"></div>
+<div id="buton3"></div>
+<div id="buton4"></div>
+</div>
+<div id="sag">
+</div>
+<div id="alt">
+</div>
+</body>
+</html>
